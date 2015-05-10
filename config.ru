@@ -1,7 +1,8 @@
 require 'rubygems'
 require 'middleman/rack'
-
 require 'rack/contrib/try_static'
+
+`bundle exec middleman build`
 
 use Rack::Deflater
 use Rack::TryStatic,
@@ -23,4 +24,3 @@ run lambda { |env|
 }
 
 
-run Middleman.server
