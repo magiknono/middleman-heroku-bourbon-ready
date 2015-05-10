@@ -1,5 +1,5 @@
-# MIDDLEMAN-HEROKU-BOURBON-READY
-Mmiddleman starter kit with custom basic features for futures ruby/html/css/js dev
+# MIDDLEMAN Starter Kit 
+Middleman starter kit with custom basic features for futures ruby/html/css/js dev
 
 ## Features
 
@@ -20,7 +20,7 @@ Mmiddleman starter kit with custom basic features for futures ruby/html/css/js d
 *Setup*
 ```
 mkdir your-folder
-git clone git@github.com:magiknono/middleman-bourbon-heroku-ready.git your-folder
+git clone git@github.com:magiknono/middleman-heroku-bourbon-ready.git your-folder
 cd your-folder
 git remote rm origin
 git remote add origin your-git-url
