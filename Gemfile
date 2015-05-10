@@ -20,3 +20,6 @@ gem 'neat', "~> 1.7.2"
 
 #install slim for rapid templating
 #gem 'slim', "~> 3.0.3"
+
+#gem rack-contrib for heroku
+gem 'rack-contrib', "~> 1.2.0"
