@@ -36,7 +36,7 @@ current version is : Middleman 3.3.12 and all gems are fixed in Gemfile
 middleman server
 ```
 **test in your browser : http://localhost:4567**
-###Deploy to heroku
+##Deploy to heroku
 *First Commit*
 ```
 git init
