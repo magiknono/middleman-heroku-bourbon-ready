@@ -5,29 +5,27 @@ Testing middleman with custom basic features for futures dev
 
  - (optionnal : Slim templating) ERB by default
  - Sass support with Bourbon / Neat / bitters
- - A basic page layout & index page based on Normalize.css
+ - A basic layout page & index page based on Normalize.css
  - Livereload
  - Jquery > 2 (not for ie 6/7/8)
+ - Google Fonts with Open-sans
  - Google analytics Ready snippet in Layout
  - Heroku ready with puma
 
-## Links
+## Links for more info on middleman
 
- - start here : https://middlemanapp.com/basics/install/
+ - start here : https://middlemanapp.com/
 
 ## Usage
-*Start as as always*
+*Start*
 ```
-cd mynew-middleman-repo/
-git init
-git commit -m "init the middleman repo"
-git remote add origin git@github.com:magiknono/middleman-test.git
-git clone ssh://git@github.com:magiknono/middleman-test.git
+git clone git@github.com:magiknono/middleman-test.git your-folder
 ```
 *Install middleman-test*
 ```
-bundle
-middleman version
+cd your-folder
+bundle install
+middleman version (check if it works)
 ```
 current version is : Middleman 3.3.12 and it is auto fixed in gemlist with the install :
 
@@ -36,13 +34,16 @@ current version is : Middleman 3.3.12 and it is auto fixed in gemlist with the i
 middleman server
 
 *Commit and deploy to heroku
+```
+git init
 git add .
-git commit -m "deploy custom middleman starter kit"
-
+git commit -m "initialise custom middleman starter kit"
+```
+```
 heroku create
 heroku push origin master
 heroku open
-
+```
 BUG : google fonts are only loaded in http,not https 
-Release: v0.1
-direct download: https://github.com/magiknono/middleman-test/archive/v0.1.zip
+
+
