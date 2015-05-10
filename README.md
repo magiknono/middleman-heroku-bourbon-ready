@@ -19,13 +19,14 @@ Testing middleman with custom basic features for futures dev
 ## Usage
 *Start*
 ```
+mkdir your-folder
 git clone git@github.com:magiknono/middleman-test.git your-folder
+cd your-folder
 git remote rm origin
 git remote add origin your-git-url
 ```
 *Install middleman-test*
 ```
-cd your-folder
 bundle install
 middleman version (check if it works)
 ```
