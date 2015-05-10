@@ -45,3 +45,4 @@ heroku open
 
 BUG : google fonts are only loaded in http,not https 
 Release: v0.1
+direct download: https://github.com/magiknono/middleman-test/archive/v0.1.zip
