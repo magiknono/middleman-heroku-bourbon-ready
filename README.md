@@ -3,7 +3,7 @@ Testing middleman with minimum basic features for futures dev
 
 ## Goals
 
- - Slim templating
+ - (optionnal : Slim templating) ERB by default
  - Sass support with Bourbon / Neat / bitters
  - A basic page layout & 404 page based on Normalize.css
  - Livereload

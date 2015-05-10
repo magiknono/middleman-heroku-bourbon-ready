@@ -17,3 +17,6 @@ gem "tzinfo-data", platforms: [:mswin, :mingw, :jruby]
 gem 'bitters', "~> 1.0.0"
 gem 'bourbon', "~> 4.2.3"
 gem 'neat', "~> 1.7.2"
+
+#install slim for rapid templating
+#gem 'slim', "~> 3.0.3"
