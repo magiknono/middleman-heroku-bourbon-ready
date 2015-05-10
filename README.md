@@ -35,6 +35,7 @@ current version is : Middleman 3.3.12 and all gems are fixed in Gemfile
 ```
 middleman server
 ```
+**test in your browser : http://localhost:4567**
 ###Deploy to heroku
 *First Commit*
 ```
@@ -62,3 +63,4 @@ heroku open
  - using jquery cdn
  - normalize.css v3.0.3 instead of v2
  - make basic starting partial/nav/footer/header with neat-basic-center-grid
+ - set google analytics in config.rb and layout for easy config
