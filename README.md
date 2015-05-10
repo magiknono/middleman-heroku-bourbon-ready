@@ -20,6 +20,8 @@ Testing middleman with custom basic features for futures dev
 *Start*
 ```
 git clone git@github.com:magiknono/middleman-test.git your-folder
+git remote rm origin
+git remote add origin your-git-url
 ```
 *Install middleman-test*
 ```
