@@ -61,6 +61,5 @@ heroku open
 
 #### TO DO
  - using jquery cdn
- - normalize.css v3.0.3 instead of v2
  - make basic starting partial/nav/footer/header with neat-basic-center-grid
- - set google analytics in config.rb and layout for easy config
+ - set google analytics in config.rb for easy config
