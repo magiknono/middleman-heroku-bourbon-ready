@@ -8,7 +8,6 @@ Middleman starter kit with custom basic features for ruby/html/css/js webdesign
  - Livereload for development mode
  - [Jquery 2](https://jquery.com/)   (not for ie 6/7/8)
  - [Google Fonts](https://www.google.com/fonts) with Open-sans
- - [Google analytics](http://www.google.com/analytics/) ready snippet for build in Layout
  - [Heroku](http://www.heroku.com) ready with [puma](http://github.com/puma/puma/)
  - ERB by default (optionnal : [Slim](http://slim-lang.com/) templating *Uncomment the Gemfile)
  - [FontAwesome](http://fontawesome.io/)4.3.0
