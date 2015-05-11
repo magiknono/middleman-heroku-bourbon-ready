@@ -26,3 +26,6 @@ gem 'rack-contrib', "~> 1.2.0"
 
 #install puma server
 gem 'puma', "~> 2.11.2"
+
+#extension ga for middleman
+gem 'middleman-google-analytics', "~> 1.1.0"

@@ -11,6 +11,7 @@ Middleman starter kit with custom basic features for ruby/html/css/js webdesign
  - [Heroku](http://www.heroku.com) ready with [puma](http://github.com/puma/puma/)
  - ERB by default (optionnal : [Slim](http://slim-lang.com/) templating *Uncomment the Gemfile)
  - [FontAwesome](http://fontawesome.io/)4.3.0
+ - [Google Analytics](http://github.com/danielbayerlein/middleman-google-analytics/)
 
 ## System requirements
  - [Heroku Toolbelt](https://toolbelt.heroku.com/) and a heroku account.

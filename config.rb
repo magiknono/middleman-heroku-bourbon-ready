@@ -8,6 +8,12 @@
 # end
 
 ###
+activate :google_analytics do |ga|
+  ga.tracking_id = 'UA-XXXXXXX-X' # Replace with your property ID.
+end
+###
+
+###
 # Page options, layouts, aliases and proxies
 ###
 
