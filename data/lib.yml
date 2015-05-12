@@ -1,0 +1,13 @@
+features:
+ - Middleman
+ - Bourbon
+ - Neat
+ - Bitters
+ - Livereload
+ - FontAwesome
+ - Jquery
+ - Google Fonts
+ - Google Analytics
+ - Erb Templating 
+ - Heroku with Puma
+ 
