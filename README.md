@@ -9,7 +9,7 @@ Middleman starter kit with custom basic features for ruby/html/css/js webdesign
  - [Jquery 2](https://jquery.com/)   (not for ie 6/7/8) or Jquery 1
  - [Google Fonts](https://www.google.com/fonts) with Open-sans
  - [Heroku](http://www.heroku.com) ready with [puma](http://github.com/puma/puma/)
- - ERB by default (optionnal : [Slim](http://slim-lang.com/) templating *Uncomment the Gemfile)
+ - ERB by default 
  - [FontAwesome](http://fontawesome.io/) 4.3.0
  - [Google Analytics](http://github.com/danielbayerlein/middleman-google-analytics/)
 
@@ -63,7 +63,8 @@ heroku open
 #### TO DO
 
  - make basic starting partial/nav/footer/header with neat-basic-center-grid
-
+ - make one demo site with erb and maybe after migrating to slim
+ - create a command line for configuration option 
 #### License
 
 Copyright (c) 2015 Arnaud Cormier. MIT Licensed, see [LICENSE](http://github.com/magiknono/middleman-heroku-bourbon-ready/blob/master/LICENSE.md) for details.
