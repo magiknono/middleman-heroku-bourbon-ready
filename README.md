@@ -65,6 +65,7 @@ heroku open
  - make basic starting partial/nav/footer/header with neat-basic-center-grid
  - make one demo site with erb and maybe after migrating to slim
  - create a command line for configuration option 
+
 #### License
 
 Copyright (c) 2015 Arnaud Cormier. MIT Licensed, see [LICENSE](http://github.com/magiknono/middleman-heroku-bourbon-ready/blob/master/LICENSE.md) for details.
