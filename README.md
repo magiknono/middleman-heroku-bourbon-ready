@@ -64,3 +64,6 @@ heroku open
 
  - make basic starting partial/nav/footer/header with neat-basic-center-grid
 
+#### License
+
+Copyright (c) 2015 Arnaud Cormier. MIT Licensed, see LICENSE(https://github.com/magiknono/middleman-heroku-bourbon-ready/blob/master/LICENSE.md) for details.
