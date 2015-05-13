@@ -1,5 +1,8 @@
-@import "neat-helpers"; // or "../neat/neat-helpers" when not in Rails
+@import "neat-helpers"; // or "
+//@import "../neat/neat-helpers"; // when not in Rails
 
+//$visual-grid: false !default;
+$visual-grid: true;
 // Neat Overrides
 // $column: 90px;
 // $gutter: 30px;

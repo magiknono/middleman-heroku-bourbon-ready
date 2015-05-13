@@ -2,20 +2,29 @@
 title: Welcome to middleman-bourbon-heroku-ready Starter Kit
 ---
 
- <h1>Custom Starter kit for designing static websites</h1>
+<nav>My nav menu</nav>
+
+<section id="intro">
+<h1>Custom Starter kit for designing static websites</h1>
 <br />
 <h2><i class="fa-li fa fa-check-square"></i>Build awesome static website with this starter kit</h2>
 <p>
 <i class="fa fa-diamond"> Middleman is powered by Ruby</i>
 </p>
+</section>
 
+<section id="features">
 <h2> Features :</h2>
 <ul class="fa-ul">
   <% data.lib.features.each do |f| %>
   <li><i class="fa-li fa fa-check-square"></i><%= f %></li>
   <% end %>
 </ul>
-<br />
+</section>
+
+</br>
+
+<aside>
 <h2><i class="fa fa-github"></i> GitHub repository :</h2>
 <p>
 <%= link_to 'Middleman-heroku-bourbon-ready', "http://github.com/magiknono/middleman-heroku-bourbon-ready" %>
@@ -24,4 +33,6 @@ title: Welcome to middleman-bourbon-heroku-ready Starter Kit
 <p>
     <%= link_to "Read Middleman Documentation", "http://middlemanapp.com/" %>
   </p>
+</aside>
 
+</footer>
