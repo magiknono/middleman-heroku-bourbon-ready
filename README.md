@@ -61,6 +61,6 @@ heroku open
  - start here : https://middlemanapp.com/
 
 #### TO DO
- - using jquery cdn
+
  - make basic starting partial/nav/footer/header with neat-basic-center-grid
- - set google analytics in config.rb for easy config
+
