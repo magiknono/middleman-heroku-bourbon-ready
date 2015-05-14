@@ -69,7 +69,7 @@ Add your google analytics is in config.rb
 
 #### BUG
  - google fonts are only loaded in http, blocked in https 
-
+ - you need some more tweakings for ie, it's not made for ie6/7/8
 #### Link for more info
 
  - start here : https://middlemanapp.com/
