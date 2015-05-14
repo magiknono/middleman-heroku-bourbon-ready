@@ -51,21 +51,35 @@ heroku push origin master
 heroku open
 ```
 
+## How to start
+see the demo at http://localhost:4567
+*
+override the grid to make your own in source/stylesheet/base/_grid_settings.scss
+write your html index in source/index.html.erb and create new pages
+write your own css in source/stylesheets/_custom.scss
+customize your own scss variables in source/stylesheets/base/_variables.scss
+write your own js in source/javascripts/_lib.js
+replace the jquery you want in source/javascripts/all.js
+your content can be in data/your-file.yml 
+*
 **Enjoy!**
 
-####1 BUG
+#### BUG
  - google fonts are only loaded in http, blocked in https 
 
-#### Link for more info on using middleman
+#### Link for more info
 
  - start here : https://middlemanapp.com/
+ - read the doc of neat and bourbon
 
 #### TO DO
 
- - make basic starting partial/nav/footer/header with neat-basic-center-grid
  - make one demo site with erb and maybe after migrating to slim
  - create a command line for configuration option 
+ - gem sitemap or manual set ? 
+ - add generate number for img  ?
+ - activate pretty url
 
-#### License
+## License
 
 Copyright (c) 2015 Arnaud Cormier. MIT Licensed, see [LICENSE](http://github.com/magiknono/middleman-heroku-bourbon-ready/blob/master/LICENSE.md) for details.
