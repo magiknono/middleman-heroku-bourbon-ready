@@ -63,6 +63,7 @@ customize your own scss variables in source/stylesheets/base/_variables.scss
 write your own js in source/javascripts/_lib.js
 replace the jquery you want in source/javascripts/all.js
 your content can be in data/your-file.yml 
+Add your google analytics is in config.rb
 ```
 #### **Enjoy!**
 
