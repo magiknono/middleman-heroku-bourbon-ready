@@ -1,9 +1,22 @@
 ---
 title: Welcome to middleman-bourbon-heroku-ready Starter Kit
 ---
+<div class="row-wrapper">
 
-<nav>My nav menu</nav>
+<div class="outer-container">
+<header>
+<h1 id="title">My Starter Kit</h1>
+<nav id="repo">
+  <i class="fa fa-github"></i>
+  <%= link_to 'Middleman-heroku-bourbon-ready', "http://github.com/magiknono/middleman-heroku-bourbon-ready" %>
+</nav>
+</header>
+</div>
 
+</div>
+
+<div class="row-wrapper">
+<div class="outer-container">
 <section id="intro">
 <h1>Custom Starter kit for designing static websites</h1>
 <br />
@@ -12,7 +25,9 @@ title: Welcome to middleman-bourbon-heroku-ready Starter Kit
 <i class="fa fa-diamond"> Middleman is powered by Ruby</i>
 </p>
 </section>
+</div>
 
+<div class="outer-container-main">
 <section id="features">
 <h2> Features :</h2>
 <ul class="fa-ul">
@@ -20,19 +35,32 @@ title: Welcome to middleman-bourbon-heroku-ready Starter Kit
   <li><i class="fa-li fa fa-check-square"></i><%= f %></li>
   <% end %>
 </ul>
+
 </section>
 
-</br>
 
+<section id="logo">
+
+  <section id="left">
+<%= image_tag 'middleman.png' %>
+  </section>
+<section id="right">
+<%= image_tag 'http://www.google.fr/url?source=imglanding&ct=img&q=http://2.bp.blogspot.com/-j48rBwZEpXI/TsI04_llvaI/AAAAAAAAAWg/PYnAX1hehes/s1600/ruby_logo_text_bottom.png&sa=X&ei=npZUVdK9CsnsUuO_gJgO&ved=0CAkQ8wc&usg=AFQjCNHo8PYjnw1HngzFkMry7TFgq1ROhg' %>
+</section>
+</section>
+</div>
+
+</br>
+<div class="outer-container">
 <aside>
-<h2><i class="fa fa-github"></i> GitHub repository :</h2>
-<p>
-<%= link_to 'Middleman-heroku-bourbon-ready', "http://github.com/magiknono/middleman-heroku-bourbon-ready" %>
-</p>
+
 <h2>Want to know how to use Middleman :</h2>
 <p>
     <%= link_to "Read Middleman Documentation", "http://middlemanapp.com/" %>
   </p>
 </aside>
+</div>
+<div class="outer-container-bottom">
+<footer>footer</footer>
+</div>
 
-</footer>
