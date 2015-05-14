@@ -1,0 +1,45 @@
+.row-wrapper {
+  @include row();
+   border:10px solid $dark-gray;
+  .outer-container {
+    @include outer-container;
+       border:10px solid $blue;
+  }
+}
+h1#title {
+  @include span-columns(6);
+  @include shift(-1);
+}
+nav#repo {
+  @include span-columns(3);
+}
+
+section#intro {
+    @include span-columns(6);
+    @include shift(2);
+    border: 3px solid $dark-gray;
+
+}
+
+.outer-container-main {
+  border:10px solid $blue;
+  @include outer-container;
+  section#features {
+    @include span-columns(2);
+    border: 3px solid $dark-gray;
+  }
+section#logo {
+  @include span-columns(6);
+  border: 3px solid $dark-gray;
+  height:100%;
+  section#left { @include span-columns(3 of 6); border:2px solid red;}
+  section#right {@include span-columns(3 of 6);border:2px solid red;}
+
+
+}
+}
+.outer-container-bottom {
+  @include outer-container(100%);
+  footer {  border:5px solid $blue;}
+
+}
