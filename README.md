@@ -1,13 +1,13 @@
 # MIDDLEMAN Starter Kit 
 Middleman starter kit with custom basic features for ruby/html/css/js webdesign
 
-see basicgrid [demo](http://gentle-eyrie-4382.herokuapp.com/)
+see a basic-grid [demo](http://gentle-eyrie-4382.herokuapp.com/)
 
 ## Features
 
  - [Sass](http://sass-lang.com) ready with [Bourbon](http://github.com/thoughtbot/bourbon/) / [Neat](http://github.com/thoughtbot/neat) / [Bitters](http://github.com/thoughtbot/bitters)
  - A basic layout page & index page based on [Normalize](http://github.com/necolas/normalize.css/)
- - Livereload for development mode
+ - Livereload for development mode and Minify css/js for prod
  - [Jquery 2](https://jquery.com/)   (not for ie 6/7/8) or Jquery 1
  - [Google Fonts](https://www.google.com/fonts) with Open-sans
  - [Heroku](http://www.heroku.com) ready with [puma](http://github.com/puma/puma/)
