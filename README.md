@@ -1,6 +1,8 @@
 # MIDDLEMAN Starter Kit 
 Middleman starter kit with custom basic features for ruby/html/css/js webdesign
 
+see basicgrid [demo](http://gentle-eyrie-4382.herokuapp.com/)
+
 ## Features
 
  - [Sass](http://sass-lang.com) ready with [Bourbon](http://github.com/thoughtbot/bourbon/) / [Neat](http://github.com/thoughtbot/neat) / [Bitters](http://github.com/thoughtbot/bitters)
@@ -52,8 +54,8 @@ heroku open
 ```
 
 ## How to start
-see the demo at http://localhost:4567
-*
+see the demo at **http://localhost:4567**
+```
 override the grid to make your own in source/stylesheet/base/_grid_settings.scss
 write your html index in source/index.html.erb and create new pages
 write your own css in source/stylesheets/_custom.scss
@@ -61,8 +63,8 @@ customize your own scss variables in source/stylesheets/base/_variables.scss
 write your own js in source/javascripts/_lib.js
 replace the jquery you want in source/javascripts/all.js
 your content can be in data/your-file.yml 
-*
-**Enjoy!**
+```
+#### **Enjoy!**
 
 #### BUG
  - google fonts are only loaded in http, blocked in https 
