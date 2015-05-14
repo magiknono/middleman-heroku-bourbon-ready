@@ -56,6 +56,7 @@ heroku open
 ## How to start
 see the demo at **http://localhost:4567**
 ```
+set your own ruby version in Gemfile
 override the grid to make your own in source/stylesheet/base/_grid_settings.scss
 write your html index in source/index.html.erb and create new pages
 write your own css in source/stylesheets/_custom.scss
